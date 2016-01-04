@@ -1,0 +1,115 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+}
+h2{
+    color: white;
+}
+header {
+    vertical-align: top;
+    position: fixed;
+    top: 0;
+    left:0;
+    background: #485480;
+    width: 100%;
+    padding: 25px;
+    z-index: 100;
+    opacity: .90;
+}
+#menu-icon {   
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+a:hover#menu-icon {
+    border-radius: 4px, 4px, 0,0;
+}
+nav ul li{
+    font-size: 25;
+    float: left;
+    display: inline-block;
+    color: white;
+    margin: 10, 10, 10, 10;
+    padding: 10px;
+}
+
+ul {
+    float:right;
+    list-style: none;
+}
+
+#topBanner {
+    margin-top: 200px;
+    opacity: .5;
+    height: 300px;
+}
+
+#topBanner h2{
+    padding-top: 25px;
+    margin: 0 auto;
+
+}
+
+#imgdiv {
+    margin: auto;
+}
+#blueimg {
+    position: absolute;
+    height: 200px;
+    width: 950px;
+    margin:0 auto;
+}
+ #h2a {
+    position: absolute;
+    z-index: 100;
+
+ }
+
+body {
+    background-color:;
+    font: 14px/20px Arial, sans-serif;
+    line-height: 1.88889;
+    color: #555753; 
+    margin: 0; 
+    padding: 0; 
+    background: #ffffff url(texture_278.jpg) no-repeat fixed; 
+
+}
+
+#wrap {
+    color: black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-opacity: .8;
+}
+.post {
+
+}
+.post p{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    width: 260px;
+    height: 50px;
+}
+.post h2 {
+    color: skyblue;
+    background-color:;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-opacity: 0.8;
+    filter: alpha(opacity=60); 
+}
+.button {
+    float: right;
+    z-index: 100;
+}
